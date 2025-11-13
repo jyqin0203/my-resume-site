@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>我的个人主页</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #2c3e50;
+      color: #fff;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2em;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+      color: #2c3e50;
+    }
+
+    .about, .skills, .projects, .contact {
+      margin-bottom: 40px;
+    }
+
+    .skills ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .skills li {
+      background: #3498db;
+      color: #fff;
+      padding: 10px 15px;
+      border-radius: 20px;
+    }
+
+    .project-card {
+      background: #fff;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    .contact p {
+      margin-bottom: 10px;
+    }
+
+    footer {
+      text-align: center;
+      background: #2c3e50;
+      color: white;
+      padding: 20px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>你的名字</h1>
+    <p>前端开发者 | HTML/CSS/JavaScript 精通者</p>
+  </header>
+
+  <section class="about">
+    <h2>关于我</h2>
+    <p>你好！我是一个充满热情的 Web 开发者，喜欢将设计变成现实，追求简洁、响应式和用户友好的网页体验。</p>
+  </section>
+
+  <section class="skills">
+    <h2>技能</h2>
+    <ul>
+      <li>HTML5</li>
+      <li>CSS3</li>
+      <li>JavaScript</li>
+      <li>Vue.js</li>
+      <li>React</li>
+      <li>Git</li>
+    </ul>
+  </section>
+
+  <section class="projects">
+    <h2>项目展示</h2>
+    <div class="project-card">
+      <h3>个人博客系统</h3>
+      <p>基于 Vue.js 和 Node.js 构建，支持 Markdown 编辑、分类管理和评论功能。</p>
+    </div>
+    <div class="project-card">
+      <h3>响应式企业官网</h3>
+      <p>为中小企业打造移动端兼容网站，优化 SEO 和加载速度。</p>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>联系方式</h2>
+    <p>📧 邮箱：you@example.com</p>
+    <p>📞 电话：+86 123-4567-8901</p>
+    <p>🌐 GitHub：<a href="https://github.com/yourusername" target="_blank">yourusername</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 你的名字. 保留所有权利。</p>
+  </footer>
+
+</body>
+</html>
